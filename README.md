@@ -1,5 +1,5 @@
 ### Code Format<br>
-The .ipynb files are Jupyter Notebook file formats that can be opened and run in Jupyter Notebook.<br> 
+All the code files are in .ipynb format, which can be opened and run in Jupyter Notebook.<br> 
 
 ### Code Structure<br>
 (1) Select molecular features: image features, array features.<br> 
