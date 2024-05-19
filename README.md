@@ -12,7 +12,8 @@ The .ipynb files are Jupyter Notebook file formats that can be opened and run in
 (8) Load external dataset.<br>
 (9) Predict external dataset.<br>
 
-If you find this repo useful for your research, please consider citing the papers:
+### Citation<br>
+If you find the models useful for your research, please consider citing the papers:
 
 ```
 @article{zhou2024toxmpnn,
