@@ -1,13 +1,25 @@
-### 代码格式<br>
-.ipynb文件是Jupyter Notebook的文件格式，可以在Jupyter Notebook中打开和运行。
+### Code Format<br>
+The .ipynb files are Jupyter Notebook file formats that can be opened and run in Jupyter Notebook.<br> 
 
-### 代码结构<br>
-(1) 选择分子特征：图像特征、数组特征<br> 
-(2) 加载数据集和表征数据集<br>
-(3) 定义模型可迭代的参数集合<br>
-(4) 寻找最优参数集合<br>
-(5) 定义可视化模型Wandb及模型参数<br>
-(6) 建立模型并寻找最优参数的周期：定义评价指标、定义损失函数、定义模型参数<br>
-(7) 打印模型评估分数<br>
-(8) 加载外部数据集<br>
-(9) 预测外部数据集<br>
+### Code Structure<br>
+(1) Select molecular features: image features, array features.<br> 
+(2) Load dataset and represent dataset.<br>
+(3) Define the set of iterable model parameters.<br>
+(4) Find the optimal set of parameters.<br>
+(5) Define the visualization model Wandb and model parameters.<br>
+(6) Build the model and find the optimal parameters cycle: define evaluation metrics, define loss function, define model parameters.<br>
+(7) Print model evaluation scores.<br>
+(8) Load external dataset.<br>
+(9) Predict external dataset.<br>
+
+If you find this repo useful for your research, please consider citing the papers:
+
+```
+@article{zhou2024toxmpnn,
+  title={ToxMPNN: A deep learning model for small molecule toxicity prediction},
+  author={Zhou, Yini and Ning, Chao and Tan, Yijun and Li, Yaqi and Wang, Jiaxu and Shu, Yuanyuan and Liang, Songping and Liu, Zhonghua and Wang, Ying},
+  journal={Journal of Applied Toxicology},
+  year={2024},
+  publisher={Wiley Online Library}
+}
+```
